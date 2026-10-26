@@ -45,22 +45,10 @@ git clone https://github.com/YOUR-USERNAME/TUBE-RADAR.git
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd TUBE-RADAR
+cd tube_radar
 ```
 
-### 3. Install Dependencies
-
-If the project contains a `requirements.txt` file, install its dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
-Skip this step if the project does not require external packages.
-
-### 4. Run the Application
-
-Replace `main.py` with the actual entry-point filename if necessary.
+### 3. Run the Application
 
 ```bash
 python main.py
@@ -72,21 +60,8 @@ The application will launch in a separate desktop window.
 
 Tube Radar uses Tkinter to render its graphical interface as a native desktop window. Therefore, it cannot be displayed directly through conventional browser-based demo platforms.
 
-To experience the application, clone the repository and run it locally. Screenshots or a screen recording can also be added to demonstrate its interface and functionality.
-
-**Source Code:** [View Repository](https://github.com/YOUR-USERNAME/TUBE-RADAR)
-
-## Project Structure
-
-```text
-TUBE-RADAR/
-├── main.py
-├── requirements.txt
-├── README.md
-└── screenshots/
-```
-
-The structure above is illustrative. Update it to match the actual files in your repository.
+To experience the application, clone the repository and run it locally. 
+**Source Code:** [View Repository](https://github.com/adyaa2102-hue/tube_radar)
 
 ## Future Improvements
 
@@ -95,13 +70,6 @@ The structure above is illustrative. Update it to match the actual files in your
 - Package the application as a standalone executable.
 - Develop a web-based version to support online demonstrations.
 
-## Contributing
-
-Contributions and suggestions are welcome. You can fork the repository, make improvements, and submit a pull request.
-
-## License
-
-Add an appropriate open-source license if you intend to distribute this project publicly.
 
 ---
 
