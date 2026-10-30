@@ -39,7 +39,8 @@ On some Linux distributions, Tkinter may need to be installed separately.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/TUBE-RADAR.git
+git clone https://github.com/adyaa2102-hue/tube_radar
+.git
 ```
 
 ### 2. Navigate to the Project Directory
