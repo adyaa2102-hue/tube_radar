@@ -1,93 +1,86 @@
-# Tube Radar
+# TubeRadar
 
-Tube Radar is a Python-based desktop application built using Tkinter to provide a graphical user interface for exploring YouTube-related information.
-
-## About the Project
-
-Tube Radar demonstrates desktop application development using Python and Tkinter. Since Tkinter applications run in desktop windows rather than web browsers, the application cannot be displayed directly on standard web-based demo platforms.
-
-The project can be downloaded and executed locally on a computer with Python installed.
+TubeRadar is a Python application that uses the Groq API to provide AI-powered functionality.
 
 ## Features
 
-- Developed using Python.
-- Graphical user interface built with Tkinter.
-- Simple and user-friendly desktop interface.
-- Runs locally on a compatible system.
-- Source code available for review and further development.
+- Uses the Groq API for AI-powered responses.
+- Loads API credentials securely using environment variables.
+- Uses Python and the `python-dotenv` package for configuration.
 
-Note: Update the feature list to reflect the actual functionality implemented in the project.
+## Requirements
 
-## Technologies Used
+- Python 3.9 or later
+- A Groq API key
+- Required Python packages listed in `requirements.txt`
 
-- Python
-- Tkinter
-- Git and GitHub
+## Installation
 
-## Prerequisites
+1. Clone this repository:
 
-Before running the application, ensure you have:
+   ```bash
+   git clone https://github.com/adyaa2102-hue/tube_radar
+   ```
 
-- Python 3.x installed.
-- Git installed (optional, for cloning the repository).
-- Tkinter available in your Python installation.
+2. Open the project folder:
 
-On some Linux distributions, Tkinter may need to be installed separately.
+   ```bash
+   cd tube_radar
+   ```
 
-## Installation and Setup
+3. Install the dependencies:
 
-### 1. Clone the Repository
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
 
-```bash
-git clone https://github.com/adyaa2102-hue/tube_radar
-.git
-```
+4. Create a file named `.env` in the project folder.
 
-### 2. Navigate to the Project Directory
+5. Add your Groq API key to the `.env` file:
 
-```bash
-cd tube_radar
-```
+   ```env
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
 
-### 3. Run the Application
+   Replace the placeholder with your own API key.
+
+## Running the Application
+
+Run the following command from the project folder:
 
 ```bash
 python main.py
 ```
 
-The application will launch in a separate desktop window.
+## API Key Security
 
-## Demo
+- Never upload your real `.env` file to GitHub.
+- The repository includes `.env.example` as a template.
+- Keep your API key private.
+- Each user should provide their own Groq API key.
 
-Tube Radar uses Tkinter to render its graphical interface as a native desktop window. Therefore, it cannot be displayed directly through conventional browser-based demo platforms.
+## Project Structure
 
-To experience the application, clone the repository and run it locally. 
-**Source Code:** [View Repository](https://github.com/adyaa2102-hue/tube_radar)
+```text
+tube_radar/
+├── main.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── README.md
+```
 
-## Future Improvements
+## Dependencies
 
-- Enhance the graphical interface and user experience.
-- Introduce additional features based on project requirements.
-- Package the application as a standalone executable.
-- Develop a web-based version to support online demonstrations.
+Install all required packages using:
 
+```bash
+python -m pip install -r requirements.txt
+```
 
----
-Developed using Python and Tkinter.
+## License
 
-
-https://github.com/user-attachments/assets/39710783-c90a-407a-b1c3-354342309cb9
-
-
-
-
-
-
-
-
-
-
-
+This project is available for personal and educational use. Add a license file if you want to specify formal reuse and distribution permissions.
 
 
 
