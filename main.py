@@ -67,7 +67,6 @@ button_1 = tk.Button(window, bg=FG, fg=ACCENT, font=(FONT, 16),
                      text="best channels to watch", command=get_text)
 button_1.pack(pady=10)
 
-# One label that gets updated, instead of stacking a new one on every click
 answer_label = tk.Label(window, text="", font=(FONT, 12), fg=FG, bg=BG,
                         justify="left", wraplength=740)
 answer_label.pack(pady=10)
